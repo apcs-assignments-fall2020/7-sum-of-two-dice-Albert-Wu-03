@@ -25,6 +25,9 @@ public class MyMain {
 
 
     public static void main(String[] args) {
-        // YOUR CODE HERE
+        Scanner scan = new Scanner(System.in);
+        System.out.println("How many pair of dice would you like to roll?");
+        int n = scan.nextInt();
+        System.out.println(sumOfTwoDice(n));
     }
 }
